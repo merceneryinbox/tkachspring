@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="app" name="MainApp" class="com.sprtster.App">
+        <constructor-arg ref="client"/>
+        <constructor-arg ref="logger"/>
+    </bean>
+
+    <bean id="event" class="com.sprtster.beans.Event" scope="prototype">
+        <constructor-arg>
+            <bean class="java.util.Date"/>
+        </constructor-arg>
+        <constructor-arg>
+            <bean id="dateFormat" class="java.text.DateFormat" factory-method="getDateInstance"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="client" class="com.sprtster.beans.Client">
+
+    </bean>
+
+    <bean id="logger" class="com.sprtster.beans.ConsoleEventLogger">
+    </bean>
+
+    <bean id="fileLogger" class="com.sprtster.beans.FileLogger" init-method="initFileAccessCheck">
+        <constructor-arg name="fileName" value="logFile.log" type="java.lang.String"/>
+    </bean>
+
+    <bean name="cacheLogger" class="com.sprtster.beans.CachedFileLogger" destroy-method="flushOnExit">
+        <constructor-arg name="cacheSize" value="50"/>
+        <constructor-arg name="fileName" value="cacheLoggerLogFile.log"/>
+    </bean>
+
+
+</beans>
