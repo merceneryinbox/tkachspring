@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e26621de-084c-44d8-9911-ac55187e285c" name="Default" comment="" />
+    <list default="true" id="e26621de-084c-44d8-9911-ac55187e285c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sprtster/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="281">
               <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,6 +40,15 @@
                 <element signature="method#App#0;class#App#0" expanded="true" />
                 <element signature="method#App#1;class#App#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -114,6 +126,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -158,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sprtster/beans/CachedFileLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sprtster/beans/FileLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sprtster/App.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -197,6 +213,9 @@
     <option name="y" value="88" />
     <option name="width" value="687" />
     <option name="height" value="982" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -449,7 +468,7 @@
       <updated>1534852689369</updated>
       <workItem from="1534852696091" duration="3740000" />
       <workItem from="1534919315435" duration="2101000" />
-      <workItem from="1534923959785" duration="3521000" />
+      <workItem from="1534923959785" duration="3967000" />
     </task>
     <servers />
   </component>
@@ -462,7 +481,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9362000" />
+    <option name="totallyTimeSpent" value="9808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
@@ -487,10 +506,10 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.53942305" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Regex Tester" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4048077" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4048077" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21826923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21890068" />
       <window_info anchor="right" id="Jenkins" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24919957" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
@@ -780,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sprtster/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="281">
           <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -788,6 +807,13 @@
             <element signature="method#App#0;class#App#0" expanded="true" />
             <element signature="method#App#1;class#App#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
